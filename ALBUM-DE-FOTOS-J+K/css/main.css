@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+header#titulo-album {
+ background: url('https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-fofo-com-coracoes-e-palavra-love_1.jpg');
+ margin-left: 570px;
+ margin-top: -9pxp;
+ width: 1000px;
+ height: 200px;
+ border: 3px solid rgb(230, 186, 243);
+ padding: 10px;
+}
+header#titulo-album h1{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30pt;
+  color: rgb(230, 186, 243);
+  text-shadow: 2px 2px 3px rgb(107, 81, 116);
+}
+header#titulo-album p{
+  opacity: 0;
+  color:rgb(196, 103, 180) ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(241, 209, 239);
+  width: 150px;
+  margin-top: 100px;
+}
+
+header#titulo-album p:hover {
+  opacity: 1;
+  -webkit-transition: all .5s;
+}
+ul#conteudo-album{
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+ul#conteudo-album li{
+  float: left;
+  width:200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid rgb(208, 163, 214);
+  background-color: rgb(243, 232, 241);
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  -webkit-transition: all .5s;
+}
+
+ul#conteudo-album{
+  display: block;
+ margin-left:0 auto;
+}
+ul#conteudo-album li span{
+  opacity: 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(0,0,0,.3) ;
+  font-size: 9pt;
+  line-height: 350px;
+  padding: 5px;
+}
+ul#conteudo-album li:hover span{
+  opacity: 1;
+}
+ul#conteudo-album li:hover{
+  -webkit-transform: scale(1.6) ;
+  }
+  ul#album-fotos li:hover span{
+      opacity: 1;
+  }
+li#foto01{
+  background: url('../fotos/foto01.jpg');
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+}
+ul#conteudo-album li#foto01:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+li#foto02{
+  background: url('../fotos/foto02.jpg');
+  background-position: 50% 50%;
+  background-size:350px 350px;
+}
+li#foto03{
+  background: url('../fotos/foto03.jpg');
+  background-position: 50% 50%;
+  background-size: 250px 250px;
+}
+li#foto04{
+  background: url('../fotos/foto04.jpg');
+  background-position: 50% 50%;
+  background-size: 250px 250px;
+}
+li#foto05{
+  background: url('../fotos/foto05.jpg');
+  background-position: 50% 50%;
+  background-size: 250px 250px;
+}
+li#foto06{
+  background: url('../fotos/foto06.jpg');
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+}
+footer#roda-pe{
+ background: url('https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-fofo-com-coracoes-e-palavra-love_1.jpg');
+ height: 145px;
+ width: 2119px;
+ margin-left: -6px;
+ border: 3px solid rgb(198, 138, 206);
+ margin-top:500px;
+}
+footer#roda-pe p{
+  text-align: center;
+  font-size: 16pt;
+  color: rgb(154, 115, 167);
+  text-shadow: 2px 2px 3px rgb(107, 81, 116);
+}
+
+
+section#menu-meio ul{
+  position: absolute;
+  margin-left: 200px;
+
+}
+section#menu-meio li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top:80px ;
+  
+ 
+}
+section#menu-meio a{
+  text-decoration: none;
+  color: rgb(196, 103, 180);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(243, 232, 241);
+  border: solid rgb(208, 163, 214) 4px;
+  padding: 6px;
+}
+section#menu-meio a:hover{
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYnizAaKGAAjVPm5axQyBjokJnkCFpr5K7TfTQTiShzbjgzbdY7uTLgL55mh3NGS56FAA&usqp=CAU') no-repeat;
+  color: rgb(69, 18, 82);
+}
+section#menu-meio figure{
+  position: absolute;
+  margin-left: 1500px;
+  margin-top: 50px;
+  border: 5px solid rgb(208, 163, 214) ;
+  transition: opacity 1s;
+}
+section#menu-meio audio#musica{
+  width: 380px;
+  position: absolute;
+  margin-left: 1516px;
+  margin-top:333px;
+}
+section#menu-meio h1{
+  font-family: sans-serif;
+  width: 500px;
+  font-size: 22px;
+  color:rgba(196, 103, 181, 0.568);
+  position: absolute;
+  margin-left: 1470px;
+  margin-top:-10px;
+}
+
+section#menu-meio h1:hover{
+  color:rgb(218, 123, 202);
+}
